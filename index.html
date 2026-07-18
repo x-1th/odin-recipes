@@ -1,24 +1,21 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Recipe Website</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <title>Recipe Website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet" />
+</head>
 
-    <div class="main-container">
-         <div class="logo">
+<body>
+  <div class="main-container">
+    <div class="logo">
       <a href="/"> Odin Recipe </a>
     </div>
-
 
     <div class="main-hero-content">
       <h1>
@@ -28,48 +25,36 @@
       <p>Tasty ideas for everyday cooking</p>
     </div>
 
-    <ul class="recipe-list">
-        <h2>Browse Recipes</h2>
-      <li class="recipe-card">
-        <img
-          class="image-recipe"
-          src="./images/pizza-buffalo-unsplash-image.jpg"
-          alt="pizza buffalo"
-        />
-        <h2>Pizza buffalo</h2>
-        <a
-          class="btn btn-primary"
-          href="./recipes/buffalo-style-chicken-pizza.html"
-        >
-          View Recipe
-        </a>
-      </li>
+    <div class="list-wrapper">
+      <h2>Browse Recipes</h2>
+      <ul class="recipe-list">
+        <li class="recipe-card">
+          <img class="image-recipe" src="./images/pizza-buffalo-unsplash-image.jpg" alt="pizza buffalo" />
+          <h2>Pizza buffalo</h2>
+          <a class="btn btn-primary" href="./recipes/buffalo-style-chicken-pizza.html">
+            View Recipe
+          </a>
+        </li>
 
-      <li class="recipe-card">
-        <img
-          class="image-recipe"
-          src="./images/fried-rice-unsplash-image.jpg"
-          alt="fried rice"
-        />
-        <h2>Fried rice</h2>
-        <a class="btn btn-primary" href="./recipes/fried-rice.html">
-          View Recipe
-        </a>
-      </li>
+        <li class="recipe-card">
+          <img class="image-recipe" src="./images/fried-rice-unsplash-image.jpg" alt="fried rice" />
+          <h2>Fried rice</h2>
+          <a class="btn btn-primary" href="./recipes/fried-rice.html">
+            View Recipe
+          </a>
+        </li>
 
-      <li class="recipe-card">
-        <img
-          class="image-recipe"
-          src="./images/turkey-chili-unsplash-image.jpg"
-          alt=""
-        />
-        <h2>Turkey chili</h2>
-        <a class="btn btn-primary" href="./recipes/turkey-chili.html">
-          View Recipe
-        </a>
-      </li>
-    </ul>
+        <li class="recipe-card">
+          <img class="image-recipe" src="./images/turkey-chili-unsplash-image.jpg" alt="" />
+          <h2>Turkey chili</h2>
+          <a class="btn btn-primary" href="./recipes/turkey-chili.html">
+            View Recipe
+          </a>
+        </li>
+      </ul>
     </div>
-    
-  </body>
+
+  </div>
+</body>
+
 </html>
